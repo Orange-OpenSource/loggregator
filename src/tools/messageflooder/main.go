@@ -7,11 +7,12 @@ import (
 	"os"
 	"time"
 
+	"fmt"
+
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/dropsonde/emitter"
-	"github.com/cloudfoundry/dropsonde/events"
 	"github.com/cloudfoundry/dropsonde/signature"
 	"github.com/gogo/protobuf/proto"
-	"fmt"
 )
 
 var destination = flag.String("destination", "localhost:3457", "Message destination")
@@ -50,10 +51,6 @@ func main() {
 	}
 
 	finalBytes := signature.SignMessage(buf, []byte(*secret))
-
-
-//	println("marshal time", t2.Sub(t1).String())
-
 
 	var i int
 	d := time.Duration(*duration)

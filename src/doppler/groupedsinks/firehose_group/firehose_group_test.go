@@ -3,8 +3,8 @@ package firehose_group_test
 import (
 	"doppler/sinks"
 
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/dropsonde/emitter"
-	"github.com/cloudfoundry/dropsonde/events"
 	"github.com/cloudfoundry/dropsonde/factories"
 
 	"doppler/groupedsinks/firehose_group"

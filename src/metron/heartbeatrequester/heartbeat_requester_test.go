@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde/control"
+	"github.com/cloudfoundry/dropsonde-protocol/control"
 	"github.com/gogo/protobuf/proto"
 
 	. "github.com/onsi/ginkgo"

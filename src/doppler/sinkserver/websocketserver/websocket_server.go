@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde/events"
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/gosteno"
 	"github.com/cloudfoundry/loggregatorlib/server"
 	"github.com/gogo/protobuf/proto"

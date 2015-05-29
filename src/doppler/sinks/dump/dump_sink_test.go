@@ -5,8 +5,8 @@ import (
 	"runtime"
 	"strconv"
 
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/dropsonde/emitter"
-	"github.com/cloudfoundry/dropsonde/events"
 	"github.com/cloudfoundry/dropsonde/factories"
 	"github.com/cloudfoundry/loggregatorlib/loggertesthelper"
 	"github.com/stretchr/testify/assert"

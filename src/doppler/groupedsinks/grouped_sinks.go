@@ -10,7 +10,7 @@ import (
 	"doppler/sinks/websocket"
 	"sync"
 
-	"github.com/cloudfoundry/dropsonde/events"
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/gosteno"
 )
 

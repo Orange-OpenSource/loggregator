@@ -3,7 +3,7 @@ package tagger_test
 import (
 	"metron/tagger"
 
-	"github.com/cloudfoundry/dropsonde/events"
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/gogo/protobuf/proto"
 	"github.com/pivotal-golang/localip"
 

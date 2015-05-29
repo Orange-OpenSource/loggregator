@@ -6,9 +6,9 @@ import (
 
 	"github.com/cloudfoundry/storeadapter"
 
+	"github.com/gogo/protobuf/proto"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/gogo/protobuf/proto"
 )
 
 var _ = Describe("Legacy message forwarding", func() {

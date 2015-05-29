@@ -2,8 +2,8 @@ package deaagent_test
 
 import (
 	"deaagent/domain"
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/dropsonde/emitter/logemitter"
-	"github.com/cloudfoundry/dropsonde/events"
 	"github.com/cloudfoundry/dropsonde/log_sender/fake"
 	"github.com/cloudfoundry/dropsonde/logs"
 	"net"

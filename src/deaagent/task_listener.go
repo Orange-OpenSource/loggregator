@@ -4,7 +4,7 @@ import (
 	"deaagent/domain"
 	"errors"
 	"fmt"
-	"github.com/cloudfoundry/dropsonde/events"
+	"github.com/cloudfoundry/dropsonde-protocol/events"
 	"github.com/cloudfoundry/dropsonde/logs"
 	"github.com/cloudfoundry/gosteno"
 	"io"
