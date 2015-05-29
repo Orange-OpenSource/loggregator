@@ -61,3 +61,7 @@
 [submodule "src/github.com/pivotal-golang/localip"]
 	path = src/github.com/pivotal-golang/localip
 	url = https://github.com/pivotal-golang/localip
+[submodule "src/github.com/cloudfoundry/dropsonde-protocol"]
+	path = src/github.com/cloudfoundry/dropsonde-protocol
+	url = https://github.com/cloudfoundry/dropsonde-protocol.git
+	branch = dropsonde-protocol-shared-library-95723432
