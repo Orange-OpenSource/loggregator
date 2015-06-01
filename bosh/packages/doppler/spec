@@ -24,8 +24,8 @@ files:
 - loggregator/src/doppler/truncatingbuffer/*.go # gosub
 - loggregator/src/github.com/apcera/nats/*.go # gosub
 - loggregator/src/github.com/cloudfoundry/dropsonde/*.go # gosub
-- loggregator/src/github.com/cloudfoundry/dropsonde-protocol/control/*.go # gosub
-- loggregator/src/github.com/cloudfoundry/dropsonde-protocol/events/*.go # gosub
+- loggregator/src/github.com/cloudfoundry/dropsonde-protocol-go/control/*.go # gosub
+- loggregator/src/github.com/cloudfoundry/dropsonde-protocol-go/events/*.go # gosub
 - loggregator/src/github.com/cloudfoundry/dropsonde/dropsonde_unmarshaller/*.go # gosub
 - loggregator/src/github.com/cloudfoundry/dropsonde/emitter/*.go # gosub
 - loggregator/src/github.com/cloudfoundry/dropsonde/envelope_extensions/*.go # gosub
