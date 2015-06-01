@@ -5,7 +5,7 @@ import (
 
 	"github.com/nu7hatch/gouuid"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/dropsonde/factories"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

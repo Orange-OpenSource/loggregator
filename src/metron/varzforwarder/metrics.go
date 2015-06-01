@@ -3,7 +3,7 @@ package varzforwarder
 import (
 	"time"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 )
 
 type metrics struct {

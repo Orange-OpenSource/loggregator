@@ -6,7 +6,7 @@ import (
 	"github.com/onsi/gomega/gexec"
 	"testing"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	. "github.com/onsi/ginkgo"
 	"github.com/onsi/ginkgo/config"
 	. "github.com/onsi/gomega"

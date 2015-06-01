@@ -2,7 +2,7 @@ package integration_test
 
 import (
 	"github.com/apcera/nats"
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/storeadapter"
 	"github.com/cloudfoundry/storeadapter/storerunner/etcdstorerunner"
 	"github.com/cloudfoundry/yagnats"

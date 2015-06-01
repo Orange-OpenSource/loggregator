@@ -5,7 +5,7 @@ import (
 	"doppler/sinks"
 	"sync"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/gosteno"
 )
 

@@ -11,7 +11,7 @@ import (
 	"metron/varzforwarder"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/dropsonde/dropsonde_marshaller"
 	"github.com/cloudfoundry/dropsonde/dropsonde_unmarshaller"
 	"github.com/cloudfoundry/dropsonde/signature"

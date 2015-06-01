@@ -1,7 +1,7 @@
 package legacymessage
 
 import (
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/gosteno"
 	"github.com/cloudfoundry/loggregatorlib/logmessage"
 	"github.com/davecgh/go-spew/spew"

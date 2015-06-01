@@ -4,7 +4,7 @@ import (
 	"doppler/sinks/containermetric"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/gogo/protobuf/proto"
 
 	. "github.com/onsi/ginkgo"

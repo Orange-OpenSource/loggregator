@@ -4,7 +4,7 @@ import (
 	"doppler/sinks"
 	"net"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/gosteno"
 	"github.com/gogo/protobuf/proto"
 	gorilla "github.com/gorilla/websocket"

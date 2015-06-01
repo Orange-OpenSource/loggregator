@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 	"github.com/cloudfoundry/noaa"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

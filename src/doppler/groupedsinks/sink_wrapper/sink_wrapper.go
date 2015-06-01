@@ -3,7 +3,7 @@ package sink_wrapper
 import (
 	"doppler/sinks"
 
-	"github.com/cloudfoundry/dropsonde-protocol/events"
+	"github.com/cloudfoundry/dropsonde-protocol-go/events"
 )
 
 type SinkWrapper struct {
